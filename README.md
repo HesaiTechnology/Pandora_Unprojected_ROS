@@ -4,7 +4,7 @@
 ```
 mkdir -p rosworkspace/src
 cd rosworkspace/src
-git clone https://github.com/HesaiTechnology/Pandora_ros.git
+git clone https://github.com/HesaiTechnology/Pandora_ros.git --recursive
 cd ..
 catkin_make
 ```
