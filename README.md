@@ -17,10 +17,10 @@ roslaunch pandora pandora_driver.launch
 
 ## ROS Topic name
 ```
-/PointCloud2
-/front_color
-/front_gray
-/right_gray
-/back_gray
-/left_gray
+/pandora/sensor/pandora/hesai40/PointCloud2
+/pandora/sensor/pandora/camera/front_color
+/pandora/sensor/pandora/camera/front_gray
+/pandora/sensor/pandora/camera/right_gray
+/pandora/sensor/pandora/camera/back_gray
+/pandora/sensor/pandora/camera/left_gray
 ```
