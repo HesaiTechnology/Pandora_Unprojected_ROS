@@ -148,7 +148,7 @@ class PandoraClient {
       ROS_INFO("picid wrong in getImageToPub");
       return;
     }
-    imgMsg = cv_bridge::CvImage(std_msgs::Header(), "rgb8", *matp).toImageMsg();
+    imgMsg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", *matp).toImageMsg();
     imgMsg->header.stamp = ros::Time(timestamp);
     imgPublishers[pic_id].publish(imgMsg);
   }
