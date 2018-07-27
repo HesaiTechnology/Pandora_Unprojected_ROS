@@ -40,9 +40,6 @@ target_link_libraries(pandora_node
     ${OpenCV_LIBS}
     ${catkin_LIBRARIES}
 )
-
-install(DIRECTORY include/
-        DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
 install(DIRECTORY launch/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch)
 install(TARGETS pandora_node
