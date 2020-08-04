@@ -1,10 +1,10 @@
-# Pandora_ROS
+# Pandora_Unprojected_ROS
 
 ## Build
 ```
 mkdir -p rosworkspace/src
 cd rosworkspace/src
-git clone https://github.com/HesaiTechnology/Pandora_ROS.git --recursive
+git clone https://github.com/HesaiTechnology/Pandora_Unprojected_ROS.git --recursive
 cd ..
 catkin_make
 ```
